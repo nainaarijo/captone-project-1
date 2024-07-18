@@ -1,0 +1,818 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter:wght@100..900&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');;
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.all-content{
+    margin-left: 100px;
+}
+
+.container{
+     padding: 0px 70px;
+     margin: 0px auto;
+}
+
+.navbar{
+    display: flex;
+    text-align: center;
+    margin: 30px;
+    justify-content: space-between;
+    padding: 0px 172px;
+}
+
+.navbar:hover{
+    cursor: pointer;
+}
+
+.header-logo img{
+    animation: logo 2s ease-in 0s infinite normal none;
+    margin-left: -80px;
+  
+
+}
+
+.drop-down select{
+  margin: 0px 40px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+
+}
+
+.drop-down select:hover{
+    cursor: pointer;
+}
+
+.drop-down select:focus{
+    outline: none;
+}
+
+.sign-in-btn button{
+    border: none;
+    background-color: #2254B4;
+    color: white;
+    padding: 15px 18px;
+    border-radius: 4px;
+    
+}
+
+.sign-in-btn button:hover{
+    cursor: pointer;
+    background-color: #202020;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.input-section input{
+    position: absolute;
+    width: 300px;
+    left: 230px;
+    margin: 50px;
+    background-color:  #F5F5F5;
+    border: none;
+    height: 25px;
+    border-radius: 50px;
+    padding: 7px 15px;
+
+}
+
+.input-section input:focus{
+    outline: none;
+}
+
+.input-section h4{
+    position: relative;
+    left: 120px;
+    top: 60px;
+    font-family: "Inter", sans-serif;
+   
+}
+
+.new-btn button{
+    position: relative;
+    left: 35px;
+    bottom: 6.5px;
+    border: none;
+    border-radius: 50px;
+    padding: 8px 13px;
+    background-color:#2254B4;
+    color: white;
+    
+}
+
+.input-section img{
+    position: relative;
+    left: 350px;
+    top: 22px;
+   
+}
+
+/* hero section */
+
+.hero-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 500px;
+}
+
+.hero-img{
+    display: flex;
+}
+
+.hero-img-3{
+    position: relative;
+    left: 500px;
+}
+
+.hero-img-1{
+    position: absolute;
+    top: 30%;
+    left: 65%;
+    z-index: 4;
+}
+
+.hero-img-2{
+    position: absolute;
+    right: 19%;
+    top: 33%;
+    left: 75%;
+    z-index: 1;
+}
+
+.hero-section-heading h1{
+   font-size: 80px;
+   font-family: "Inter", sans-serif;
+}
+
+.hero-section p{
+    font-size:28px;
+    font-family: "Inter", sans-serif;
+}
+
+.get-started-btn{
+    border: none;
+    background-color: #2254B4;
+    color: white;
+    border-radius: 5px;
+    padding: 13px 18px;
+}
+
+.get-started-btn:hover{
+   cursor: pointer;
+   background-color: #202020;
+}
+
+.contact-btn{
+    border: none;
+    background-color: #F5F5F5;
+    border-radius: 5px;
+    padding: 13px 18px;
+    margin: 10px;
+}
+
+.contact-btn:hover{
+    cursor: pointer;
+    background-color:#816e6e ;
+}
+
+.hero-section-img-1{
+    margin-top: 50px;
+}
+
+/* logos section */
+
+.logos-heading h3{
+   padding: 50px 187px;
+   font-family: "Inter", sans-serif;
+}
+
+.logos img{
+  margin-left: 190px;
+}
+
+/* digital finance section */
+
+.digital-finance h1{
+    margin-top: 90px;
+    margin-left: 175px;
+    font-family: "Inter", sans-serif;
+    font-size: 50px;
+}
+
+.digital-finance-para p{
+   padding: 0px 175px;
+   font-family: "Inter", sans-serif;
+   font-size: 25px;
+}
+
+.connect{
+    background-color: #2960CA;
+    display: flex;
+    margin-left: 170px ;
+    width: 1400px;
+    height: 390px;
+    border-radius: 4px;
+}
+
+.vector-img{
+   padding: 40px 60px;
+  
+}
+
+.vector-img h2{
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+.vector-img p{
+    color: white;
+    font-family: "Inter", sans-serif;
+    padding: 10px 0px;
+}
+
+.vector-img button{
+    background-color:  #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    padding: 10px;
+    color:   #2254B4;
+    font-size: 15px;
+}
+
+.connect-img img{
+   margin-left: 355px;
+   margin-top: 20px;
+}
+
+/* direct pay section */
+
+.cards{
+    display: flex;
+}
+
+.direct-pay-section{
+    background-color:  #EDF5FE;
+    width: 650px;
+    height: 760px;
+    margin: 20px;
+    margin-left: 175px;
+}
+
+.direct-pay-heading img{
+   margin-top: 15px;
+   margin-left: 50px;
+ 
+}
+
+.direct-pay-heading h1{
+    margin-left: 50px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+
+.direct-pay-heading p{
+    margin-left: 50px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+
+.direct-pay-btn button{
+    margin: 30px;
+    padding: 3px 20px 10px;
+    margin-left: 50px;
+    border: none;
+    border-radius: 4px;
+    background-color:   #2254B4;
+    color:   #FFFFFF; 
+    text-align: center;
+    font-size: 18px;
+    
+}
+
+.Partnership{
+    display: flex;
+    padding: 0px 40px;
+}
+.Partnership img{
+    margin-top: 10px;
+    width: 130px;
+    height: 40px;
+}
+
+.In-Partnership-img{
+    margin-top: 10px;
+  margin-right: 20px;
+  height: 400px;
+}
+
+/* second card */
+.second-card{
+    background-color:  #000000;
+    width: 650px;
+    height: 760px;
+    margin: 20px;
+    margin-left: 70px;
+}
+
+.second-card-heading img{
+   margin-top: 15px;
+   margin-left: 50px;
+ 
+}
+
+.second-card-heading h1{
+    margin-left: 50px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.second-card-heading p{
+    margin-left: 50px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+.second-card-btn button{
+    margin: 30px;
+    padding: 0px 20px 10px;
+    font-size: 18px;
+    margin-left: 50px;
+    border: none;
+    border-radius: 4px;
+    background-color:   #2254B4;
+    color:   #FFFFFF;
+    color: white;
+}
+
+
+.second-card-img img{
+  margin-right: 10px;
+  height: 400px;
+}
+
+/* Mobile section */
+.mobile-section-heading h1{
+    margin-left: 170px;
+    font-family: "Inter", sans-serif;
+    margin-top: 150px;
+    font-size: 45px;
+}
+
+.mobile-section-heading p{
+    margin-left: 170px;
+    font-family: "Inter", sans-serif;
+}
+
+ 
+ .mobile-section{
+    background-color:  #F5F5F5;
+    margin-left: 90px;
+    height: 730px;
+   
+}
+
+.mobile-section-span{
+    padding: 60px 80px;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+}
+
+.mobile-section-span button{
+    border: none;
+    background-color: black;
+    border-radius: 50px;
+    padding: 10px 15px;
+    color: white;
+}
+
+.mobile-section-span span{
+    padding: 0px 60px;
+}
+
+.Loading-btn button{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50px;
+    margin-left: 70px;
+    
+} 
+
+.loan-offers-heading h1{
+    margin-top: 80px;
+    margin: 80px;
+    font-family: "Inter", sans-serif;
+}
+
+.paragraph p{
+    margin-left: 80px;
+    font-family: "Inter", sans-serif;
+    
+}
+
+.paragraph span{
+    margin-left: 80px;
+    color:   #2254B4;
+    font-family: "Inter", sans-serif;
+}
+
+.img-1{
+    position: relative;
+    left: 60%;
+    bottom: 320px;
+    
+}
+
+.img-2{
+   position: absolute;
+   right: 480px;
+   top: 2920px;
+}
+
+
+
+/* second card section */
+
+.card-section{
+    display: flex;
+    margin-top: 20px;
+}
+
+.card-heading{
+    margin-left: 175px;
+    font-family: "Inter", sans-serif;
+    padding: 50px 0px;
+}
+
+.second-card-section{
+    margin-left: 175px;
+    font-family: "Inter", sans-serif;
+    background-color:   #F5F5F5;
+    width: 500px;
+    height: 500px;
+    padding: 50px 60px;
+    
+   
+}
+
+.second-card-section:hover{
+    cursor: pointer;
+    scale: 1.1;
+    box-shadow: 0px 0px 50px 3px rgba(0, 0, 0, .2);
+    transform: translateY(-10);
+}
+
+.second-card-section p{
+    font-size: 25px;
+}
+
+.user-name{
+    display: flex;
+    margin-top: 190px;
+}
+
+.user-name img{
+    width: 40px;
+}
+
+.user-name h2{
+    padding: 0px 15px;
+}
+
+.user-experience span{
+    margin-left: 55px;
+    margin-bottom: 10px;
+}
+
+/* third card */
+
+.third-card-section{
+    margin-left: 100px;
+    font-family: "Inter", sans-serif;
+    background-color:   #F5F5F5;
+    width: 500px;
+    height: 500px;
+    padding: 50px 60px;
+    
+   
+}
+
+.third-card-section:hover{
+    cursor: pointer;
+    scale: 1.1;
+    box-shadow: 0px 0px 50px 3px rgba(0, 0, 0, .2);
+    transform: translateY(-10);
+}
+
+.third-card-section p{
+    font-size: 25px;
+}
+
+.user-name-details{
+    display: flex;
+    margin-top: 160px;
+}
+
+.user-name-details img{
+    width: 40px;
+}
+
+.user-name-details h2{
+    padding: 0px 15px;
+}
+
+.user-experience-card span{
+    margin-left: 55px;
+    margin-bottom: 10px;
+}
+
+.images{
+    display: flex;
+    margin-left: 175px;
+    padding: 50px 0px;
+}
+
+.images .Arrows img{
+    margin-left: 1200px;
+}
+
+/* get started section */
+
+.get-started-section img{
+    position: relative;
+    background-color:  #0055C0;
+    margin-left: 175px;
+    width: 1320px;
+
+}
+
+.get-started-heading h1{
+    margin-left: 175px;
+    position: absolute;
+    top: 480%;
+    left: 10%;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+.card-1{
+    position: absolute;
+    top: 490%;
+    left: 26%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 900px;
+    height: 350px;
+}
+
+.card-1:hover{
+    cursor: pointer;
+    scale: 1.1;
+    box-shadow: 0px 0px 50px 3px rgba(0, 0, 0, .2);
+    transform: translateY(-10);
+}
+
+.coding img{
+    position: absolute;
+    margin-left:55%;
+    bottom: 2px;
+}
+
+.get-start-log-1 img{
+   padding: 20px 30px;
+}
+
+.get-start-log-1 h1{
+    padding: 0px 40px;
+    font-family: "Inter", sans-serif;
+}
+
+.get-start-log-1 span{
+    padding: 0px 40px;
+    font-family: "Inter", sans-serif;
+}
+.span span img{
+    position: absolute;
+    padding: 5px 10px;
+}
+
+.card-2{
+    position: absolute;
+    top: 530%;
+    left: 26%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 280px;
+    height: 270px;
+}
+
+.card-2:hover{
+    cursor: pointer;
+    scale: 1.1;
+    box-shadow: 0px 0px 50px 3px rgba(0, 0, 0, .2);
+    transform: translateY(-10);
+}
+
+.card-2 img{
+    padding: 10px 30px;
+   
+}
+
+.card-2 h1{
+    padding: 0px 30px;
+    font-family: "Inter", sans-serif;
+}
+
+.card-2 span{
+    padding: 0px 30px;
+    font-family: "Inter", sans-serif;
+}
+
+.card-2 span img{
+    position: absolute;
+    padding: 3px 10px;
+} 
+
+.card-3{
+    position: absolute;
+    top: 530%;
+    left: 42%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 280px;
+    height: 270px;
+}
+
+.card-3:hover{
+    cursor: pointer;
+    scale: 1.1;
+    box-shadow: 0px 0px 50px 3px rgba(0, 0, 0, .2);
+    transform: translateY(-10);
+}
+
+.card-3 img{
+    padding: 10px 30px;
+   
+}
+
+.card-3 h1{
+    padding: 0px 30px;
+    font-family: "Inter", sans-serif;
+}
+
+.card-3 span{
+    padding: 0px 30px;
+    font-family: "Inter", sans-serif;
+}
+
+.card-3 span img{
+    position: absolute;
+    padding: 3px 10px;
+} 
+
+.card-4{
+    position: absolute;
+    top: 530%;
+    left: 58%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 280px;
+    height: 270px;
+}
+
+.card-4:hover{
+    cursor: pointer;
+    scale: 1.1;
+    box-shadow: 0px 0px 50px 3px rgba(0, 0, 0, .2);
+    transform: translateY(-10);
+}
+
+.card-4 img{
+    padding: 10px 30px;
+   
+}
+
+.card-4 h1{
+    padding: 0px 30px;
+    font-family: "Inter", sans-serif;
+}
+
+.card-4 span{
+    padding: 0px 30px;
+    font-family: "Inter", sans-serif;
+}
+
+.card-4 span img{
+    position: absolute;
+    padding: 3px 10px;
+} 
+
+/* last section */
+.last-section{
+    background-color: #000000;
+    color: #FFFFFF;
+    margin-left: 175px;
+    width: 1320px;
+    height: 900px;
+}
+
+.last-section-heading h1{
+   padding: 70px;
+   text-align: center;
+   font-family: "Inter", sans-serif;
+}
+
+.last-section-heading p{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+}
+
+.last-section-btns{
+   margin-left: 520px;
+   display: flex;
+}
+
+.first-btn button{
+    border: none;
+    background-color: #2254B4;
+    padding: 8px 10px;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+.second-btn button{
+    border: none;
+    background-color: #202020;
+    padding: 8px 10px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    margin-left: 15px;
+}
+
+.table{
+    margin-left: 300px;
+    margin-top: 150px;
+    font-family: "Inter", sans-serif;
+}
+
+.table-heading{
+    padding: 0px 40px;
+}
+
+.table-rows td{
+    padding: 0px 40px;
+}
+
+.last-section-logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.mono-logo img{
+    padding: 0px 80px;
+    margin-left: 70px;
+   
+}
+
+.mono-logo span{
+    font-family: "Inter", sans-serif;
+}
+
+.twitter{
+    margin-left: 200px;
+}
+
+/* header logo animation */
+@keyframes logo {
+    0% {
+      transform: scale(1);
+    }
+  
+    50% {
+      transform: scale(1.1);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
